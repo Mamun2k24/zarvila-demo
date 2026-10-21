@@ -18,7 +18,6 @@ import Category from "../components/Category";
 
 import Checkout from "../pages/checkOut/Checkout";
 import CheckoutTwo from "../pages/checkOut/CheckoutTwo";
-import Otp from "../components/OTP";
 import { AdminRoute } from "../hooks/useAdmin";
 import { Test } from "../components/Test";
 import Buynow from "../components/Buynow"
@@ -65,6 +64,7 @@ import HeaderSectionSettings from "../components/ui/HeaderSectionSettings";
 import AdminShippingSettings from "../components/ui/AdminShippingSettings";
 import GeneralSetting from "../components/ui/GeneralSetting";
 import ForgotPassword from "../pages/ForgotPassword";
+import Otp from "../components/OTP";
 
 
 
