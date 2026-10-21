@@ -19,7 +19,6 @@ import Category from "../components/Category";
 import Checkout from "../pages/checkOut/Checkout";
 import CheckoutTwo from "../pages/checkOut/CheckoutTwo";
 import { AdminRoute } from "../hooks/useAdmin";
-import { Test } from "../components/Test";
 import Buynow from "../components/Buynow"
 import ResetPassword from "../Auth/ResetPassword";
 import { UserRoute } from "../hooks/userRole";
@@ -64,7 +63,8 @@ import HeaderSectionSettings from "../components/ui/HeaderSectionSettings";
 import AdminShippingSettings from "../components/ui/AdminShippingSettings";
 import GeneralSetting from "../components/ui/GeneralSetting";
 import ForgotPassword from "../pages/ForgotPassword";
-import Otp from "../components/OTP";
+import OTP from "../components/OTP";
+
 
 
 
@@ -104,12 +104,13 @@ export const router = createBrowserRouter([
       },
       // auth
       { path: "login", element: <Signup /> },
-      { path: "otp-verify", element: <Otp /> },
+      { path: "otp-verify", element: <OTP /> },
       // { path: "forget-password", element: <ForgotPassword /> },
       
       { path: "/forgot-password", element: <ForgotPassword /> },
       // misc
-      { path: "test", element: <Test /> },
+
+      
       { path: "checkout", element: <Checkout /> },
       { path: "buy-checkout", element: <Buynow /> },
   

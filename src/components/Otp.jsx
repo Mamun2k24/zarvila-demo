@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { toast, ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'; 
 
-const Otp = () => {
+const OTP = () => {
   const [otp, setOtp] = useState(['', '', '', '']);
   const inputRefs = useRef([]);
   const navigate = useNavigate();
@@ -131,4 +131,4 @@ const Otp = () => {
   );
 };
 
-export default Otp;
+export default OTP;
