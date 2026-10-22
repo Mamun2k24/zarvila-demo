@@ -63,7 +63,7 @@ import HeaderSectionSettings from "../components/ui/HeaderSectionSettings";
 import AdminShippingSettings from "../components/ui/AdminShippingSettings";
 import GeneralSetting from "../components/ui/GeneralSetting";
 import ForgotPassword from "../pages/ForgotPassword";
-import OTP from "../components/OTP";
+import Otp from "../components/Otp";
 
 
 
@@ -104,7 +104,7 @@ export const router = createBrowserRouter([
       },
       // auth
       { path: "login", element: <Signup /> },
-      { path: "otp-verify", element: <OTP /> },
+      { path: "otp-verify", element: <Otp /> },
       // { path: "forget-password", element: <ForgotPassword /> },
       
       { path: "/forgot-password", element: <ForgotPassword /> },
